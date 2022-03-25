@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+}
+
+form {
+    border: 1px solid #0e0e0e;
+    width:100%;
+    border-radius: 7px;
+    padding: 50px;
+}
+
+form>label {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    margin-left: 50px;
+}
+
+.form-control {
+    float: left;
+    width: 200px;
+    margin-left: 25px;
+}
+
+
+/* Estilos de la tabla**/
+
+.table {
+    width: 100%;
+    margin-left: 150px;
+    margin-top: 5%;
+}
